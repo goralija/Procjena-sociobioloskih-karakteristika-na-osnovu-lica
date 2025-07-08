@@ -7,8 +7,8 @@
 **Department of Computer Science and Informatics**  
 *Artificial Intelligence – Academic Year 2024/2025*
 
-## **All Project Files and Detailed Documentation:** ![📂 Google Drive](https://drive.google.com/drive/folders/1Jk3uNFTRxHVkMjpn066wsDjqQZmfoOd8?usp=drive_link)
-## **Video Presentation for Project:** ![🎥 Watch Here](https://drive.google.com/file/d/17BSHWQ3GyyyG5Uhr9iZv1bK_F8KJr8Kh/view?usp=sharing)
+## **All Project Files and Detailed Documentation:** [📂 Google Drive](https://drive.google.com/drive/folders/1Jk3uNFTRxHVkMjpn066wsDjqQZmfoOd8?usp=drive_link)
+## **Video Presentation for Project:** [🎥 Watch Here](https://drive.google.com/file/d/17BSHWQ3GyyyG5Uhr9iZv1bK_F8KJr8Kh/view?usp=sharing)
 
 ---
 
@@ -91,7 +91,7 @@ Recent progress in deep learning, particularly Convolutional Neural Networks (CN
 - Resize to 224×224
 - Tensor conversion & normalization (ImageNet stats)
 
-## **More about dataset:** ![📊 Links of Detailed Dataset Information](./dataset.md)
+## **More about dataset:** [📊 Links of Detailed Dataset Information](./dataset.md)
 
 ---
 
