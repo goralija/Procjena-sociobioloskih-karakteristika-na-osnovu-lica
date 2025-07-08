@@ -8,6 +8,8 @@
 
 **Artificial Intelligence – Academic Year 2024/2025**
 
+# **All Project Files and Detailed Documentation:** ![GoogleDrive](https://drive.google.com/drive/folders/1Jk3uNFTRxHVkMjpn066wsDjqQZmfoOd8?usp=drive_link)
+
 ---
 
 ## **1. Problem Overview**
@@ -32,6 +34,14 @@ Recent progress in deep learning, particularly Convolutional Neural Networks (CN
 ## **3. Dataset & Preprocessing**
 
 **Dataset**: FairFace (108k+ images) labeled by race (7 groups), gender (2), and age (9 groups). Split into train, validation, and test sets.
+
+**Dataset Structure Example**:
+
+<img src="./img/dataset_example.jpg" alt="Dataset Example" height="300">   >   train/10.jpg
+
+<img src="./img/dataset_labels.png" alt="Dataset Labels Example" height="300">
+  ---
+
 **More about dataset:** ![datasetInfo](./dataset.md)
 
 **Balance Analysis**:
@@ -60,9 +70,11 @@ Recent progress in deep learning, particularly Convolutional Neural Networks (CN
 - Epochs: 20, Batch: 64, Optimizer: Adam (lr=0.0001)
 - Subset of 65k images (due to Colab limits)
 
-**Loss dropped** from ~4100 → ~250.
+**Summed epoch loss (we used L = ∑ Li of all 65,000 training images) dropped** from ~4100 → ~250.
 
 <img src="./img/loss_epochs_graph.png" alt="Gender Confusion Matrix" height="300">
+
+## ℹ️ Use of train-eval split missing due to Colab free tier limits and the first experience in use of PyTorch 
 
 ---
 
