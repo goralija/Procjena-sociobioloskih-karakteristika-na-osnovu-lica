@@ -1,2 +1,2 @@
-# Procjena-sociobioloskih-karakteristika-na-osnovu-lica
+# Procjena sociobioloskih karakteristika na osnovu lica
 TBD
