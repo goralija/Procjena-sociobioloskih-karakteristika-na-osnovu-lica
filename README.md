@@ -62,6 +62,8 @@ Recent progress in deep learning, particularly Convolutional Neural Networks (CN
 
 **Loss dropped** from ~4100 → ~250.
 
+<img src="./img/loss_epochs_graph.png" alt="Gender Confusion Matrix" height="300">
+
 ---
 
 ## **5. Evaluation Results**
