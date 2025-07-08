@@ -63,7 +63,7 @@ Recent progress in deep learning, particularly Convolutional Neural Networks (CN
 
 ---
 
-## **3. Dataset & Preprocessing**
+## [3. Dataset & Preprocessing](./src/analiza_dataset_a.py)
 
 **Dataset**: FairFace (108k+ images) labeled by race (7 groups), gender (2), and age (9 groups). Split into train, validation, and test sets.
 
@@ -95,7 +95,7 @@ Recent progress in deep learning, particularly Convolutional Neural Networks (CN
 
 ---
 
-## **4. Model & Training**
+## [4. Model & Training](./src/kreiranje_i_treniranje_mreze.py)
 
 **Architecture**: ResNet-34 (pretrained) with three heads for race, gender, and age (multi-task setup).
 
@@ -113,7 +113,7 @@ Recent progress in deep learning, particularly Convolutional Neural Networks (CN
 
 ---
 
-## **5. Evaluation Results**
+## [5. Evaluation Results](./src/pipeline_za_testiranje.py)
 
 **Test Accuracy**:
 - Gender: 89.9%  
