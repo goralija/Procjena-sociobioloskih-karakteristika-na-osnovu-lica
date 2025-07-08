@@ -1,6 +1,6 @@
 # **Estimation of Sociobiological Characteristics Based on Facial Images**
 
-# **Authors:** ![Durmo Belmin](https://github.com/belmin19341), ![Goralija Harun](https://github.com/goralija), ![Tutun Adil](https://github.com/adiltutun12)
+# **Authors:** [Durmo Belmin](https://github.com/belmin19341), [Goralija Harun](https://github.com/goralija), [Tutun Adil](https://github.com/adiltutun12)
 
 **University of Sarajevo**  
 **Faculty of Electrical Engineering Sarajevo**  
