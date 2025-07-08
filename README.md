@@ -131,9 +131,19 @@ After careful analysis of available options, we chose the **FairFace dataset**. 
 Split is stratified, maintaining demographic proportions in all subsets.
 
 ### **Balance Analysis**
-- **Race**: ~14–15% per group, max difference <1%
+- **Race**: ~10–19% per group
+
+   <img src="./img/dataset_distribucija_rase.png" alt="Confusion Matrix - Gender" style="height:400px;">
+
+---
+
 - **Gender**: Perfectly balanced (50/50)
 - **Age**: Naturally varied, adult groups (20–59) most represented
+
+   <img src="./img/dataset_distribucija_dobi.png" alt="Confusion Matrix - Gender" style="height:400px;">
+
+---
+
 
 ### **Preprocessing Steps**
 1. **Resize (224×224)** for ResNet compatibility
@@ -187,8 +197,23 @@ Loss steadily dropped from ~4100 to ~250 over 20 epochs, indicating good learnin
 
 ### **Test Set Results**
 - **Gender**: 89.9% accuracy, F1-score: 0.899
+
+   <img src="./img/gender_confusion_matrix.png" alt="Confusion Matrix - Gender" style="height:400px;">
+
+---
+
 - **Race**: 60.3% accuracy, F1-score: 0.602
+
+   <img src="./img/race_confusion_matrix.png" alt="Confusion Matrix - Race" style="height:400px;">
+
+---
+
 - **Age**: 51.2% accuracy, F1-score: 0.509
+
+   <img src="./img/age_confusion_matrix.png" alt="Confusion Matrix - Age" style="height:400px;">
+
+---
+
 
 ### **Confusion Matrix Insights**
 - **Gender**: Very low confusion
